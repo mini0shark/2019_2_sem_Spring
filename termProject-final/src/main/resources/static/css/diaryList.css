@@ -1,0 +1,109 @@
+html,body {
+	height: 100%;
+}
+
+.pointer-group{
+	cursor: pointer;
+}
+.diary{
+	margin: 20px;
+	margin-left : 40px;
+	margin-right : 40px;
+	height:500px;
+	min-height: 100%;
+}
+.list table{
+	border-top: 1px solid ;
+	border-bottom: 1px solid ;
+}
+thead{
+	background-color: rgba(0,0,0,.05);
+}
+.diary-list tr{
+	cursor: pointer;
+}
+.diary-list tr:hover{
+	background-color: #000;
+	color:#AAA;
+}
+.paging{
+	text-align: center !important;
+}
+.pointer-group{
+	cursor: pointer;
+}
+.page-button{
+	margin-left:3px;
+	margin-right:3px;
+}
+.search-text-group{
+    float: left;
+    
+    margin-right:10px
+    margin-bottom: 10px;
+}
+.search-button{
+    float: left;
+	color: #fff;
+	background-color: #000;
+}
+.writing-button{
+	text-align:right;
+	color: #fff;
+	background-color: #000;
+    float: right;
+    margin-bottom: 10px;
+}
+.container{
+	text-align:center;
+	background-color: #000;
+}
+.row{
+	text-align: center;
+	background-color: #fff;
+}
+.pagination{
+	list-style: none;
+	display: inline-block !important;
+	padding: 0;
+	margin-top: 20px;
+}
+.pagination li{
+	display: inline;
+}
+.pagination button{
+	float:left;
+	display: block;
+	font-size:14px;
+	text-decoration: none;
+	padding: 5px 12px;
+  	color: #96a0ad;
+	line-height: 1.5;
+	text-align: center;
+}
+.right, .left{
+	
+}
+#pageNumbers{
+	float:left;
+	display: block;
+	font-size:14px;
+	text-decoration: none;
+	padding: 0px 12px;
+  	color: #96a0ad;
+	line-height: 1.5;
+	text-align: center;
+}
+.num.active, .modal .num:active {
+  background-color: #2e9cdf;
+  cursor: pointer;
+  }
+.first{
+  margin-right: 15px;}
+
+.last{
+  margin-left: 15px;
+  }
+  .first:hover, .last:hover, .pagination button:hover{
+  color: #2e9cdf;
+  }

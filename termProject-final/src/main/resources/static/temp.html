@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<input type="text" id="in">
+<button type="button" onclick="getPage()">입력</button>
+<button type="button" name="button" onclick="location.href='https://www.naver.com'"></button>
+  <script type="text/javascript">
+      function getPage(){
+        count= document.getElementById("in").value;
+        count=parseInt(count);
+        totalPage = (count+9)/10;
+        alert(parseInt(totalPage));
+      }
+  </script>
+<body>
+</body>
+</html>
+
+<!--
+  <form action="index.html" method="post">
+    <input type="file" id="filename" name="file" disabled>
+    <input id="calendar" type='date' name='dDay' onclick="onCalendarClick()" disabled="disabled" value="2000-01-01"/>
+    <label for="file">ㅁㄴㅇ라먼ㅇㄹ</label>
+  </form>
+  <button type="button" name="button" onclick="btn()">btn</button>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript">
+      document.getElementById("filename").select();
+      //document.execCommand('Delete');
+      document.selection.clear();
+      function btn(){
+        file = document.getElementById("filename");
+        file.disabled = !file.disabled;
+      }
+  </script>-->

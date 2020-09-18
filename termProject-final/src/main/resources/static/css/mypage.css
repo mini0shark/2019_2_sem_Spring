@@ -1,0 +1,51 @@
+html,body {
+	height: 100%;
+	margin: 10px;
+}
+
+body.main-page {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+.badge-info{
+	background-color: #000;
+}
+.pointer-group{
+	cursor: pointer;
+}
+.container{
+    margin-top: 10px;
+	text-align:center;
+	background-color: #000;
+	background-color: #fff;
+}
+.num {
+  margin-left: 3px;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  }
+.num.active, .modal .num:active {
+  background-color: #2e9cdf;
+  cursor: pointer;
+  }
+.num:hover{
+	background-color: #2e9cdf;
+  color: #ffffff;
+}
+.first{
+  margin-right: 15px;}
+.last{
+  margin-left: 15px;}
+  .first:hover, .last:hover, .left:hover, .right:hover{
+  color: #2e9cdf;
+}
+.footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}

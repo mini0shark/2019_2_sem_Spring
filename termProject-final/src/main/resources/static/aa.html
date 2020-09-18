@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <a href="#">sdlfkdl</a>
+    <script type="text/javascript">
+
+				function init(){
+					const login = document.querySelector('.login');
+					const join = document.querySelector('.join');
+					var loginState = true;
+
+					const req = new XMLHttpRequest();
+					req.addEventListener('load', function(){
+						var hasStoredId = this.responseText;
+						if(hasStoredId==="true")
+						loginState = true;
+						else
+						loginState = false;
+
+						if(loginState){
+							login.setAttribute('href', "http://117.17.143.71:8080/miniproject/user/logout");
+							login.innerHTML= "로그아웃";
+							join.setAttribute('href', "http://117.17.143.71:8080/miniproject/user/mypage");
+							join.innerHTML="마이페이지";
+						}
+						else{
+							login.setAttribute('href', "http://117.17.143.71:8080/miniproject/user/signin");
+							login.innerHTML= "로그인";
+							join.setAttribute('href', "http://117.17.143.71:8080/miniproject/user/signup");
+							join.innerHTML="회원가입";
+						}
+
+					});
+					req.open('post', "http://117.17.143.71:8080/miniproject/api/user/checkLogin");
+					req.send();
+
+					const initProductListRequest = new XMLHttpRequest();
+					initProductListRequest.addEventListener('load', function(){
+						const productListJson = this.responseText;
+						showList(productListJson);
+					});
+					initProductListRequest.open('get','http://117.17.143.71:8080/miniproject/api/product/initproduct');
+					initProductListRequest.send();
+				}
+    </script>
+  </body>
+</html>

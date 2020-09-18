@@ -1,0 +1,106 @@
+
+html,body {
+	height: 100%;
+}
+
+body.change-info {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+
+.change-info .logo {
+	/* width, height : 로그인창에 노출되는 로고의 크기 */
+	width: 140px;
+	height: 140px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 40px auto;
+	box-shadow: 0 0 40px rgba(0,0,0,.05);
+	display: flex;
+    align-items: center;
+}
+
+.change-block{
+	padding-top: 20px;
+}
+.change-info .logo img {
+	width: 100%;
+	height: auto;
+}
+.logo img{
+	cursor: pointer;
+}
+
+.change-info .card-wrapper {
+	width: 500px;
+	background-color: #fff;	
+}
+
+.change-info .card {
+	border-color: transparent;
+	box-shadow: 0 0 40px rgba(0,0,0,.05);
+}
+
+.change-info .card.fat {
+	padding: 10px;
+}
+
+.change-info .card .card-title {
+	margin-bottom: 30px;
+}
+form{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+label{
+	margin-right: 10px;
+}
+input{
+	width: 100%
+}
+
+.table-width{
+	width:100%;
+}
+.change-info .form-control {
+	border-width: 2.3px;
+}
+
+.change-info .form-group {
+	width: 100%;
+}
+
+.change-info .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.change-info .margin-top20 {
+	margin-top: 20px;
+}
+
+.change-info .no-margin {
+	margin: 40px 0px 0px 0px;
+}
+.submit-btn{
+	
+}
+
+.btn-info{
+	background-color: #000;
+}
+.badge-info{
+	background-color: #000;
+}
+
+.btn-info:hover {
+  color: #fff;
+  background-color: #888;
+  border-color: #fff;
+}
+.passwd{
+	margin-top: 20px;
+	
+} 
+.nickname{
+	margin-top: 40px;
+}

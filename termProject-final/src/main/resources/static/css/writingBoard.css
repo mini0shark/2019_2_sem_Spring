@@ -1,0 +1,87 @@
+html,body {
+	height: 100%;
+	margin: 10px;
+}
+
+body.writing-page {
+	margin:0;
+	font-size: 14px;
+}
+.badge-info{
+	background-color: #000;
+}
+.pointer-group{
+	cursor: pointer;
+}
+.logo{
+	height: 150px;
+}
+.items{
+	background-color: #000;
+	color:#fff;
+}
+.container{
+	text-align:center;
+	background-color: #f7f9fb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.justify-content-md-center{
+	margin-top: 30px;
+}
+.input-item{
+	margin-top:5px;
+	margin-bottom:5px;
+	
+}
+table{
+	text-align:center;
+}
+.diary-title input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: -webkit-fill-available;
+}
+.check{
+	margin-left: 20px;
+    width: fit-content;
+}
+.check label{
+	margin-right:10px;
+}
+.disclosure{
+	text-align:left;
+	margin-left: 20px;
+}
+.attachment input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: -webkit-fill-available;
+}
+textarea{
+    margin: 10px;
+    width: -webkit-fill-available;
+    min-height: 200px;
+}
+.form-group{
+	margin-bottom:0;
+	background-color:#fff;
+}
+.footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+.button-box{
+	margin-top : 10px;
+}
+button{
+	text-align:center;
+	color: #fff;
+	background-color: #000;
+}
+label{
+	margin-bottom:0;
+}

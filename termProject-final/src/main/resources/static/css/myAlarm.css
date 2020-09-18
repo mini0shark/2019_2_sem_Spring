@@ -1,0 +1,65 @@
+html,body {
+	height: 100%;
+	margin: 10px;
+}
+
+body.myAlarm {
+	margin:0;
+	font-size: 14px;
+}
+.container{
+	text-align:center;
+	background-color: #000;
+}
+
+
+
+.change-info .card-wrapper {
+	width: 500px;
+	background-color: #fff;	
+}
+.myAlarm th{
+    border-right: 1px solid;
+    margin-right: 2px;
+    width:100px;
+    padding: 90px 20px;
+}
+.myAlarm td{
+    border-left: 1px solid;
+    margin-left: 2px;
+    padding: 20px;
+}
+.d-day-tr{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    min-height: 200px;
+}
+.badge-past{
+	width:fit-content;
+	color:#fff;
+	background-color: green;
+	margin:10px;
+	font-size: 20px;
+	padding:5px;
+}
+.badge-d-day{
+	width:fit-content;
+	color:#fff;
+	background-color: red;
+	margin:10px;
+	font-size: 20px;
+	padding:5px;
+}
+
+.badge-future{
+	width:fit-content;
+	color:#fff;
+	background-color: #000;
+	margin:10px;
+	font-size: 20px;
+	padding:5px;
+}
+.alarm-block{
+    width: fit-content;
+    float: left;
+}

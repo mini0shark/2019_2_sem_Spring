@@ -1,0 +1,17 @@
+html,body {
+	height: 100%;
+	margin: 10px;
+}
+
+body.main-page {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+.badge-info{
+	background-color: #000;
+}
+.footer {
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}

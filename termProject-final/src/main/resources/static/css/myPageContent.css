@@ -1,0 +1,15 @@
+.pointer-group{
+	cursor: pointer;
+}
+.nav-pills .nav-link.active{
+	background-color: #000;
+    border-radius: unset;
+}
+a{
+	color: #000;
+}
+.col-3{
+}
+.col-9{
+	border-left: 1px solid ;
+}
